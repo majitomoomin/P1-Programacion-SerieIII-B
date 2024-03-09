@@ -2,10 +2,14 @@
 
 namespace Program;
 
-public static void Main(string[] args)
+class umg
 {
-    Console.Write("Bienvenido");
-    Console.WriteLine("Ingrese su gmail sin el @gmail.com");
-    String gmail = Console.ReadLine();
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Bienvenido");
+        Console.WriteLine("Ingrese su gmail sin el @gmail.com");
+        String gmail = Console.ReadLine();
+        Console.WriteLine("Su correo generado es: ", gmail , "@miumg.edu.gt");
 
+    }
 }
